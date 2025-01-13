@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تطبيق استرجاع الملفات</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>تطبيق استرجاع الملفات المفقودة</h1>
+        <button id="theme-toggle">تبديل الوضع</button>
+        <div id="clock"></div>
+    </header>
+    <main>
+        <section id="file-recovery">
+            <h2>استرجاع الملفات</h2>
+            <input type="file" id="file-input" multiple>
+            <button id="recover-btn">استرجاع الملفات</button>
+        </section>
+        <section id="create-folder">
+            <h2>إنشاء مجلد</h2>
+            <button id="create-folder-btn">إنشاء مجلد</button>
+        </section>
+        <section id="media-conversion">
+            <h2>تحويل الصور إلى فيديو</h2>
+            <input type="file" id="image-input" multiple accept="image/*">
+            <button id="convert-btn">تحويل</button>
+        </section>
+        <section id="audio-upload">
+            <h2>تحميل مقطع صوتي</h2>
+            <input type="file" id="audio-input" accept="audio/*">
+            <button id="upload-audio-btn">تحميل</button>
+        </section>
+        <section id="search">
+            <h2>البحث عن الملفات</h2>
+            <input type="text" id="search-input" placeholder="أدخل اسم الملف">
+            <button id="search-btn">بحث</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 تطبيق استرجاع الملفات</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
